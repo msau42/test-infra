@@ -349,6 +349,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.13"
       - name: CSI_PROW_BUILD_JOB
@@ -389,6 +392,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.14"
       - name: CSI_PROW_BUILD_JOB
@@ -429,6 +435,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.15"
       - name: CSI_PROW_BUILD_JOB
@@ -469,6 +478,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "latest"
       - name: CSI_PROW_BUILD_JOB
@@ -509,6 +521,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.13"
       - name: CSI_PROW_BUILD_JOB
@@ -549,6 +564,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.14"
       - name: CSI_PROW_BUILD_JOB
@@ -589,6 +607,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.15"
       - name: CSI_PROW_BUILD_JOB
@@ -629,6 +650,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "latest"
       - name: CSI_PROW_BUILD_JOB
@@ -669,6 +693,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.13"
       - name: CSI_PROW_BUILD_JOB
@@ -709,6 +736,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.14"
       - name: CSI_PROW_BUILD_JOB
@@ -749,6 +779,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.15"
       - name: CSI_PROW_BUILD_JOB
@@ -789,6 +822,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "latest"
       - name: CSI_PROW_BUILD_JOB
@@ -829,6 +865,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "release-1.15"
       - name: CSI_PROW_BUILD_JOB
@@ -869,6 +908,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "1.13.3"
       - name: CSI_PROW_BUILD_JOB
@@ -915,6 +957,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "1.14.0"
       - name: CSI_PROW_BUILD_JOB
@@ -961,6 +1006,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "1.15"
       - name: CSI_PROW_BUILD_JOB
@@ -1007,6 +1055,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "latest"
       - name: CSI_PROW_BUILD_JOB
@@ -1053,6 +1104,9 @@ periodics:
       args:
       - ./.prow.sh
       env:
+      # TODO: This should be replaced with kind v0.6.0
+      - name: CSI_PROW_KIND_VERSION
+        value: "86bc23d84ac12dcb56a0528890736e2c347c2dc3"
       - name: CSI_PROW_KUBERNETES_VERSION
         value: "latest"
       - name: CSI_PROW_BUILD_JOB
